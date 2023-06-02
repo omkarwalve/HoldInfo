@@ -1,0 +1,61 @@
+
+body{
+    color: azure;
+    font-family:'Roboto Mono', monospace;
+}
+
+.container-fluid{
+    padding: 3% 3% 3% 3%;
+}
+div.row{
+    height: 40vh;
+}
+div.col-md-4{
+    padding: 20px;
+}
+.middle-row{
+    text-align: center;
+}
+img{
+    width: 50%;
+ 
+}
+.customicon{
+    border-radius: 100%;
+    max-width: 5%;
+    margin-right: 10px;
+    min-width: 20px;
+}
+
+.seconds{font-size: 1.5rem;
+    display: inline-block;
+    min-width: 20px;
+}
+td{
+    font-size:  1.2rem;
+}
+.best-price{
+    font-size: 4rem;
+    margin: 10% 0 2% 0;
+}
+.price-under{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 94.3%;
+    height: 60px;   
+    border-top:  1px solid darkgrey;
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+@media screen and (max-width: 992px) {
+    .list{
+        margin-top: 100px;
+    }
+  }
+  
